@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Adivinhe um número entre 1 e 999!</p>
+        <input type="number" id="userGuess" placeholder="Digite seu palpite" min="1" max="999">
+        <button id="guessButton">Verificar</button>
+        <p id="feedback"></p>
+        <button id="hintButton">Dica</button>
+        <button id="restartButton">Reiniciar</button>
+        <h3>Histórico de Tentativas</h3>
+        <ul id="guessHistory"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
